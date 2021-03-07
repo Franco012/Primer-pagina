@@ -1,0 +1,80 @@
+header div {
+    height: 120px;
+    background:black;
+    margin: 20px;
+    border: solid;
+}
+body {
+    margin: 50px;
+    background:url(imagenes/espacio.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: seashell;
+}
+article a{
+    color: seashell;
+    font-size: 20px;
+    text-decoration:none;
+    margin: 10px 20px;
+    display: inline-block;
+    background: #3BA7E1;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 0px #1D64A6;
+}
+a:hover {
+    box-shadow: 0px 2px 0px #1D64A6;
+}
+a:active{
+    box-shadow: none;
+}
+header div a {
+    font-size: 40px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.menu {
+    width: 100%;
+    background: black;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+.menu li {
+    display: inline-block;
+}
+.menu li a {
+    padding: 15px 50px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.menu li a:hover {
+    background:#635b9b;
+    color: white
+}
+section {
+    background: violet;
+    width: 68.5%;
+    float: left;
+    margin-bottom: 20px;
+}
+aside{
+    background: blue;
+    width: 30%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+
+    
+}
+footer{
+    background: black;
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+}
+.main .articles {
+    width: 50%;
+}
